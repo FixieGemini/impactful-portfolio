@@ -17,18 +17,30 @@ nav ul {
     min-width: 300px;
   }
 
-  nav a {
+    nav a {
     background-color: unset;
     color: white;
     font-weight: bold;
     text-decoration: none;
   }
 
-  nav a:hover {
+    nav a:hover {
     color: red;
   }
 
-  footer {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+
+footer {
     display: flex;
     justify-content: center;
     padding: 2%;
@@ -36,7 +48,7 @@ nav ul {
     color: white;
   }
 
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     header {
       flex-direction: column;
     }
