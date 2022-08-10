@@ -7,6 +7,13 @@ header {
     color: white;
   }
 
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  }
+
   h1 {
     font-size: 200%;
   }
@@ -29,26 +36,14 @@ header {
   }
 
     nav a:hover {
-    color: red;
-  }
-
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin-left: -1.5rem;
-    margin-right: -1.5rem;
-  }
-  
-  .justify-center {
-    justify-content: center;
+    color: hotpink;
   }
 
 footer {
     display: flex;
     justify-content: center;
     padding: 2%;
-    background-color: black;
+    background-image: url(./images/star-trails.jpeg);
     color: white;
   }
 
@@ -56,9 +51,8 @@ footer {
     header {
       flex-direction: column;
     }
-  
+
     main {
-      max-width: 1200px;
+        max-width: 1200px;
+      }
     }
-  }
-  
