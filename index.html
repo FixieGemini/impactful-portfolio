@@ -13,9 +13,9 @@
         <h1>Yari's Portfolio</h1>
         <nav>
             <ul>
-                <li><a href="#">About me</a></li>
-                <li><a href="#">my work</a></li>
-                <li><a href="#">contact</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#work">my work</a></li>
+                <li><a href="#contact">contact</a></li>
             </ul>
         </nav>
     </header>
@@ -24,35 +24,38 @@
 
         <section>
 
-            <h2>About Me</h2>
-            
-                <figure>
-                    <img src="" alt="Graphic with Coming Soon text">
-                    <figcaption>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</figcaption>
-                </figure>
+            <h2 id="about">About Me</h2>
+                
+            <img id="portrait" src="./assets/images/IMG_0418.jpeg" alt="Portrait photo of Yariel Crespo" width="100" height="100">
+            <p> Cool, funny, nice, smart. </p>
 
         </section>
 
         <section>
         
-            <h2>Work</h2>
+            <h2 id="work">My Work</h2>
 
-                <article>
+                <article class="card">
                     <h3>Horiseon</h3>
+                    <a href="https://fixiegemini.github.io/Horiseon/">
+                    <img src="./assets/images/world-wide-web.jpg" alt="Sphere with binary code in it floating in the palm of a hand" height="100" width="100">
+                    </a>
                 </article>
 
-                <article>
+                <article class="card">
                     <h3>Cheatsheet</h3>
+                    <img src="./assets/images/world-wide-web.jpg" alt="Sphere with binary code in it floating in the palm of a hand" height="100" width="100">
                 </article>
 
-                <article>
+                <article class="card">
                     <h3>Place Holder</h3>
+                    <img src="./assets/images/world-wide-web.jpg" alt="Sphere with binary code in it floating in the palm of a hand" height="100" width="100">
                 </article>
 
         </section>
 
         <section>
-            <h2>Contact Me</h2>
+            <h2 id="contact">Contact Me</h2>
             <li>(520) 332-9541</li>
             <li><a href="#">yariel.crespo@gmail.com</a></li>
             <li><a href="#">linkedin</a></li>
